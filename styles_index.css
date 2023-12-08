@@ -1,0 +1,98 @@
+body {
+	background-color: powderblue;
+}
+
+header {
+	color: white; 
+	text-align: center; 
+	padding: 20px;
+}
+
+header + p {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h2 {
+	padding-left: 10px;
+	color:#495F75;
+}
+
+article + h2 {
+	padding-left: 30px;
+}
+
+
+
+table {
+	border-collapse: separate;
+	width: 55%;
+}
+
+th, td {
+	border: 2px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: gray;
+	color: white;
+}
+
+
+article {
+	padding: 60px;
+	background-color: lightgray;
+}
+
+
+section {
+	background: white;
+	margin: 10px;
+	width:95%;
+	padding-left: 20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:20px;
+}
+
+
+.container p {
+	padding-left: 30px; 
+}
+
+.container img {
+	float:left; 
+	width: 420px; 
+	height: 320px;
+	margin-left: 30px; 
+	margin-right: 60px;
+}
+
+.container table {
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+
+.emphasized-text {
+	text-decoration: underline;
+}
+
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	color: #0041C2;
+}
+
+a:active {
+	color: #BE6E9E;
+}
+
+
+#background {background-color:gray;
+}
